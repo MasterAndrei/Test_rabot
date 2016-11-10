@@ -1,0 +1,136 @@
+@import _bourbon
+
+/*==========  Desktop First Method  ==========*/
+@media only screen and (min-height : 899px)
+  .header-content
+	  padding: 15% 0
+@media only screen and (max-width : 1200px)
+  .header-content
+    .responsive-img
+      width: auto
+      max-width: 100%
+
+  .phone
+      margin-right: 40px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+  .phone
+    margin-right: 40px
+  .header-content
+     h1
+       font-size: em(34px)
+
+  .testemonials-item
+     .testemonials-desc
+         padding: 15px
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+  .mnu-line
+    text-align: center
+    .logo
+        display: inline-block
+    .phone
+      text-align: center
+      padding: 0
+      margin-top: 25px
+    .toggle-mnu
+         top: -46px
+         right: 15px
+          position: absolute
+
+  .main_mnu
+    margin-top: 100px
+    a
+      font-size: em(17px)
+
+    .responsive-img
+        h2
+            text-align: left
+            font-size: em(20px)
+    /*Disable Animation on Mobile Devices*/
+  .animated
+	  /*CSS transitions*/
+	  -o-transition-property: none !important
+	  -moz-transition-property: none !important
+	  -ms-transition-property: none !important
+	  -webkit-transition-property: none !important
+	  transition-property: none !important
+	  /*CSS transforms*/
+	  -o-transform: none !important
+	  -moz-transform: none !important
+	  -ms-transform: none !important
+	  -webkit-transform: none !important
+	  transform: none !important
+	  /*CSS animations*/
+	  -webkit-animation: none !important
+	  -moz-animation: none !important
+	  -o-animation: none !important
+	  -ms-animation: none !important
+	  animation: none !important
+
+
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+  .header-content
+        h1
+         font-size: em(30px)
+         margin-top: 90px
+         text-align: left
+        ul
+             li
+                 text-align: left
+                 font-size: 15px
+
+  .portfolio-popup
+      text-align: center
+
+      td
+          padding: 20px
+          text-align: left
+          width: 90%
+
+      h2
+          text-align: left
+
+          font-size: em(25px)
+          width: 90%
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+  .main_mnu
+    margin-top: 140px
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
